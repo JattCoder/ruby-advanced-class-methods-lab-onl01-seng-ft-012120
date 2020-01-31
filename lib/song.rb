@@ -6,6 +6,7 @@ class Song
     self.save
     name = songname
     artist_name = songartist
+    return name
   end
 
   def self.all
